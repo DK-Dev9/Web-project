@@ -1,0 +1,162 @@
+*,
+body {
+  padding: 0;
+  margin: 0;
+}
+h4{
+  color: rgba(0, 0, 255, 0.7);
+}
+nav {
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  height: 50px;
+  padding: 0 50px;
+  mix-blend-mode: multiply;
+}
+nav > ul {
+  display: flex;
+  list-style: none;
+}
+nav > ul > li {
+  padding: 10px;
+}
+
+#page1{
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+}
+.left>h2{
+  margin-bottom: 25px;
+}
+#page1>.right>img{
+  filter: blur(4px);
+  width: 30vw;
+}
+.btn{
+  padding: 3px 10px;
+  margin: 5px 0;
+  background-color: rgba(0, 0, 190, 0.693);
+  border: none;
+}
+
+#page2{
+  padding: 150px;
+}
+.container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  
+}
+.box{
+  width: 50%;
+  margin: 10px 0;
+}
+.mini>img{
+  width: 100px;
+  float: left;
+  align-items: center;
+  mix-blend-mode: multiply;
+}
+
+#page3{
+  display: flex;
+  padding: 70px;
+  justify-content: space-between;
+}
+#page3>.left{
+  width: 48%;
+}
+#page3>.left>img{
+  padding-left: 150px;
+  height: 100%;
+  
+}
+#page3>.right{
+  width: 48%;
+  box-sizing: border-box;
+  align-items: center;
+}
+#page3>.right>li{
+  padding: 3px 0;
+}
+.ln{
+  width: 100px;
+  height: 3px;
+  background-color: blue;
+  margin: 7px ;
+  box-shadow: 3px;
+}
+
+#page4{
+  padding: 100px;
+  h5,h2{
+    text-align: center;
+    
+  }
+  ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    white-space: 5px;
+    margin-top: 10px;
+    li{
+      height: 100px;
+      width: 100px;
+      border: 5px solid black;
+      border-radius: 8px;
+      margin: 5px 20px;
+      text-align: center;
+      vertical-align: baseline;
+    }
+  }
+}
+
+#page5{
+  padding: 100px;
+  h5,h2{
+    text-align: center;
+  }
+}
+#plans{
+  display: flex;
+  justify-content: center;
+  .plan{
+    h4{
+      margin: 10px 0;
+    }
+    p{
+      margin: 3px;
+    }
+    text-align: center;
+    margin: 5px 20px;
+    padding: 10px 20px;
+    border: 1px solid black;
+    
+    border-radius: 10px;
+    .btn{
+      margin-top: 20px;
+    }
+  }
+  .plan:hover{
+    border: 5px solid blue;
+  }
+}
+
+#page6{
+  padding: 100px;
+  h2,h4{
+    text-align: center;
+  }
+  p{
+    padding: 10px 15%;
+    text-align: center;
+    
+  }
+}
